@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Search movies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="client.css">
+</head>
+<body>
+    <h1>Search movies</h1>
+    <img id="app-image" src="cinema.png" alt="Cinema image"/>
+    <form>
+        <label for="movie-title">Movie title:</label><br>
+        <input type="text" id="movie-title" name="name" value="Guardians of the galaxy"><br><br>
+        <input type="button" value="Search" onclick="loadGetMsg()">
+    </form>
+    <div id="title" class="centered-text"></div>
+    <div id="movie-information">
+        <div id="img-movie" class="centered-text"><img id="poster" src="" alt="Movie poster"/></div>
+        <div id="genres" class="centered-text fixed-width centered"></div>
+        <div id="plot" class="centered-text fixed-width centered"></div>
+        <ul class="fixed-width centered">
+            <li id="rated"></li>
+            <li id="released"></li>
+            <li id="director"></li>
+            <li id="writer"></li>
+            <li id="actors"></li>
+            <li id="language"></li>
+            <li id="country"></li>
+            <li id="awards"></li>
+            <li id="ratings"></li>
+            <li id="metascore"></li>
+            <li id="imdb-rating"></li>
+            <li id="imdb-votes"></li>
+            <li id="imdb-id"></li>
+            <li id="type"></li>
+            <li id="dvd"></li>
+            <li id="box-office"></li>
+            <li id="production"></li>
+            <li id="website"></li>
+        </ul>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>

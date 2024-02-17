@@ -1,0 +1,53 @@
+body {
+    color: #fff;
+    background-color: #000;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+#title {
+    font: bold 30px Roboto, Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-color: #484848;
+    border-top-width: 2px;
+    border-top-style: solid;
+    padding: 6px;
+}
+
+#genres {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin: 5px;
+    padding: 6px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.fixed-width {
+    width: 50%;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#movie-information {
+   display: none;
+}
+
+#app-image {
+    width: 180px;
+}
