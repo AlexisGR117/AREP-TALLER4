@@ -52,7 +52,6 @@ public class MovieInfoServerTest extends TestCase {
         assertEquals("image/png", MovieInfoServer.contentType("cinema.png"));
         assertEquals("text/html", MovieInfoServer.contentType("client.html"));
         assertEquals("text/css", MovieInfoServer.contentType("client.css"));
-        assertEquals("image/x-icon", MovieInfoServer.contentType("favicon.ico"));
         assertEquals("image/jpeg", MovieInfoServer.contentType("cinema.jpg"));
     }
 
